@@ -13,7 +13,7 @@ body {
 
 .header {
     height: 72px;
-    padding: 16px;
+    padding: 20px;
 }
 
 
@@ -25,9 +25,49 @@ ul {
     gap: 16px 
 }
 
-a {
+a, .secondary-text {
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
 }
 
+.secondary-text{
+    margin: 20px;
+}
+
+
+.hero {
+    background: #1F2937;
+    display: flex;
+    align-items: center;
+    padding: 20px 16px;
+}
+
+.container {
+    padding-left: 60px;
+}
+
+.main-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    margin: 20px;
+}
+
+.sign-up {
+    background-color: #3882F6;
+    font-size: 18px;
+    font-weight: 900;
+    color: #E5E7EB;
+    text-align: center;
+    margin: 10px 20px;
+    padding: 10px 40px;
+    border-radius: 10px;
+    border: none;
+}
+
+.hero-image {
+    width: auto;
+    height: 100%;
+    padding: 50px;
+}
