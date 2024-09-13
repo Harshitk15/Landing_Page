@@ -104,3 +104,26 @@ a, .secondary-text {
     border-radius: 10%;
     margin-bottom: 10px;
 }
+
+.quote{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #E5E7EB;
+    flex-direction: column;
+    margin: 100px 0;
+}
+
+.quote-text{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    padding: 100px 200px;
+}
+
+.quote-author{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-style: normal;
+}
