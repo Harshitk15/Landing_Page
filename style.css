@@ -7,15 +7,22 @@ body {
 .header,
 .footer {
   display: flex;
-  justify-content: space-between;
   background: #1F2937;
 }
 
 .header {
+    justify-content: space-between;
     height: 72px;
     padding: 20px 70px 20px 90px;
 }
 
+.footer{
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+    font-size: 18px;
+    padding: 30px;
+}
 
 ul {
     display: flex;
