@@ -91,6 +91,7 @@ a, .secondary-text {
     align-items: center;
     gap: 22px;
     text-align: center;
+    font-size: 18px;
 }
   
 .info {
@@ -118,7 +119,7 @@ a, .secondary-text {
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
-    padding: 100px 200px;
+    padding: 100px 250px;
 }
 
 .quote-author{
@@ -127,3 +128,37 @@ a, .secondary-text {
     align-items: center;
     font-style: normal;
 }
+
+.call-to-action{
+    background-color: #2261c5;
+    display: flex;
+    align-items: center;
+    margin: 100px 150px;
+    padding: 50px 100px;
+    justify-content: space-between;
+}
+
+.cta-main-text{
+    color: #E5E7EB;
+    font-weight: 900;
+    font-size: 24px;
+    gap: 40px;
+}
+
+.cta-subtext{
+    font-size: 16px;
+    color: #E5E7EB;
+}
+
+.cta-button{
+    background-color: #2261c5;
+    font-size: 18px;
+    font-weight: 900;
+    color: #E5E7EB;
+    text-align: center;
+    margin: 10px 20px;
+    padding: 10px 40px;
+    border-radius: 10px;
+    border: 2px solid #F9FAF8;
+}
+
